@@ -16,7 +16,15 @@
             <Image url="@download.jpg" />
          </image>
       </ImageView>
-      <Pane opacity="0.41" prefHeight="486.0" prefWidth="798.0" style="-fx-background-color: grey;" />
+      <Pane opacity="0.2" prefHeight="486.0" prefWidth="798.0" style="-fx-background-color: grey;">
+         <children>
+            <ImageView fitHeight="54.0" fitWidth="43.0" layoutX="741.0" layoutY="418.0">
+               <image>
+                  <Image url="@download2.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
         <Button fx:id="button" layoutX="65.0" layoutY="116.0" onAction="#handleButtonAction" prefHeight="33.0" prefWidth="98.0" text="Menu Favoritos" />
       <Button fx:id="button2" layoutX="65.0" layoutY="182.0" onAction="#handleButtonAction" prefHeight="33.0" prefWidth="98.0" text="Reservas" />
       <Button fx:id="button3" layoutX="65.0" layoutY="248.0" onAction="#handleButtonAction" prefHeight="33.0" prefWidth="98.0" text="Historicos" />
