@@ -19,7 +19,7 @@ public class Aula extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("MenuPrincipal.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("CadastroClient.fxml"));
         
         Scene scene = new Scene(root);
         
